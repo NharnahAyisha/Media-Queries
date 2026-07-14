@@ -67,7 +67,7 @@ body {
 /* Please write your responsive codes after this comment.
 Do not delete any of the above code. */
 
-/* desktop color achieve */
+/* desktop styling */
 .light-box{
   background-color: red;
   color: white;
@@ -76,6 +76,27 @@ Do not delete any of the above code. */
   border-radius: 8px;
 }
 
+/* c2  side by side desktop view*/
+.layout-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  background-color: #3498db;
+  padding: 20px;
+  color: #f5f6fa;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 8px;
+}
+
+.sidebar{
+  background-color: cadetblue;
+  padding: 20px;
+  color: #f5f6fa;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 8px;
+}
 /* styling for tablet */
 @media screen and (max-width: 991px){
   .light-box{
@@ -91,3 +112,5 @@ Do not delete any of the above code. */
     color: white;
   }
 }
+
+
